@@ -71,7 +71,8 @@ Geospatial analysis, network analysis
 - Miasma theory 
 
 ---
-## John Snow’s Investigation
+
+## John Snow’s Investigation 
 
 <div id="container">
   <div id="navbar" class="column1">
@@ -83,12 +84,82 @@ Snow hypothesized that cholera was spread by an agent in contaminated water.
   </div>
 </div>
 
-
---
-
+---
 ![corona](/images/snow_map.png)
 
+---
+None of the workers in the nearby Broad Street brewery contracted cholera.
+
+
+![corona](/images/beverages.jpeg )<!-- .element  width="70%" -->
+
+
+---
+Snow’s intervention led to the close of the Broad Street pump.
+
+<div id="container">
+  <div id="navbar" class="column1">
+    <img src="/images/pump.jpg">
+  </div>
+    <div id="content" class="column2">
+    <img src="/images/colera_map.gif">
+  </div>
+</div>
+
+![corona](/images/colera_map_legend.png)
+
 --
+
+- Do you have to use a specific software/ language/ framework?
+- Do you have to know a specific algorithm/model?
+- Do you have to work in a specific domain?
+
+--
+## GeoCrust (2000)
+<small>
+- University of Algarve, Fisheries Research
+- Map effort and landings of the Portuguese crustacean fleet
+- Identify fishing trips
+
+</small>
+<div id="container">
+  <div id="navbar" class="column1">
+    <img src="/images/lagosta.jpg">
+  </div>
+    <div id="content" class="column2">
+    <img src="/images/GeoCrust-10-Module-5-Cartography-screen-displays-showing-on-the-left-the-spatial.png">
+  </div>
+</div>
+
+Note:
+- 20 years later, the GPS data was used as the basis of Oversee, a system of marine surveillance developed by the Portuguese Navy and Critical Software
+
+---
+## Ciudad2020 (2014)
+<small>
+- BDigital, INDRA
+- Smart Cities
+- Use geolocated Tweets as a proxy for population distribution
+
+</small>
+<div id="container">
+  <div id="navbar" class="column2">
+    <img src="/images/bigdata3.png">
+  </div>
+    <div id="content" class="column1">
+    <img src="/images/case_study.png">
+  </div>
+</div>
+
+Note:
+- - Clustering analysis
+
+---
+
+
+
+
+
 
 ## WTF is Heroku?
 
