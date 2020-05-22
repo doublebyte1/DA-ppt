@@ -152,200 +152,99 @@ Note:
 </div>
 
 Note:
-- - Clustering analysis
+- Clustering analysis
 
 ---
 
+## Road Traffic and Incidents (2015)
+<small>
+- BigData CoE and RACC
+- Traffic modelling
+- Road incidents
+- Beware of the small rubbish trucks!
 
+</small>
+<div id="container">
+  <div id="navbar" class="column1">
+    <img src="/images/kibana1.png">
+  </div>
+    <div id="content" class="column1">
+    <img src="/images/kibana2.png">
+  </div>
+</div>
 
-
-
-
-## WTF is Heroku?
-
-[https://www.heroku.com/](https://www.heroku.com/)
-
-- Polyglot cloud platform as a service.<!-- .element: class="fragment" -->
-- Supports several programming languages.<!-- .element: class="fragment" -->
-- Runs applications in virtual containers.<!-- .element: class="fragment" -->
-- Supports diverse databases.<!-- .element: class="fragment" -->
-
-
-Note:
-- Free tier ($$).
-- Easy to use: it works a bit like git
---
-## Example?
-
-[https://leaflet-react.herokuapp.com/](https://leaflet-react.herokuapp.com/)
-![corona](/images/leaflet_heroku.png)<!-- .element  width="80%" -->
-
-Note:
-- Notice the url structure
---
-## Easy to use
-![corona](/images/child1.jpeg)<!-- .element  width="40%" -->
-
---
-## Deploy in 5 easy Steps
-1. Register <!-- .element  style="color:red" -->
-2. Install heroku-cli  <!-- .element  style="color:red" -->
-2. Login <!-- .element  style="color:blue" -->
-- Add remote hook <!-- .element  style="color:blue" -->
-- Push code <!-- .element  style="color:green" -->
-
----
-## Register
-![corona](/images/heroku_register.png)<!-- .element  width="80%" -->
-
-Note:
-- Register for a free account
-
----
-## Install heroku-cli
-
-[https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
-
-Ubuntu:
-```bash
-sudo snap install --classic heroku
-```
-macOS:
-```bash
-brew tap heroku/brew && brew install heroku
-```
-
-Note:
-- Register for a free account
 
 ---
 
-## Login
+## Cell phone data (2020)
+<small>
+- Teragence and EarthPulse
+- Telco providers (e.g.: O2) want to know what is the area of influence of the different cell towers
 
-```bash
-heroku login
-```
+
+</small>
+<div id="container">
+  <div id="navbar" class="column2">
+    <img src="/images/cell_tower_original.png">
+  </div>
+    <div id="content" class="column2">
+    <img src="/images/cell_tower_ch.png">
+  </div>
+</div>
 
 Note:
-- It authenticates with the Heroku page
----
-## Add remote hook
-
-```bash
-heroku create
-```
-
----
-## Push code
-
-```bash
-git push heroku master
-```
+- Data for the entire UK
 
 --
-## Open application
+## What changed in these 20 yeards?
 
-```bash
-heroku open
-```
-Note:
-- Et voila! go to your browser and open the page
-- DB is missing: checking the logs
+- Availability of data.<!-- .element: class="fragment" -->
+- New technological challenges.<!-- .element: class="fragment" -->
+- Availability of tools (FOSS). <!-- .element: class="fragment" -->
+- Widespread use of data analysis. <!-- .element: class="fragment" -->
 
 --
-## Checking the logs
+## Key skills of the Data Analyst
 
-```bash
-heroku logs --tail
-```
-Note:
-- This is the equivalent to viewing the terminal
---
-## mLab
-
-[https://elements.heroku.com/addons/mongolab](https://elements.heroku.com/addons/mongolab)
-- Mongo database as a service.<!-- .element: class="fragment" -->
-- web-based management tools.<!-- .element: class="fragment" -->
-- Runs on a AWS EC2.<!-- .element: class="fragment" -->
-
-
-Note:
-- Managed mongodb database
-- free tier
-
----
-## mLab how-to
-
-- Install add-on
-- Attach to application
-- get db uri and add it to your application:
-
-```bash
-heroku config:get MONGODB_URI
-```
-
-Note:
-- Et voila! Open the application
-- Try firefox or postman
+- Technological literacy.<!-- .element: class="fragment" -->
+- Maths literacy.<!-- .element: class="fragment" -->
+- Be able to understand the problem domain.<!-- .element: class="fragment" -->
+- Be able to extract and communicate insights.<!-- .element: class="fragment" -->
 
 --
-## A couple things more
+## Thank you!
+### I would love to hear from you
 
-Note:
-- Advanced topics
+<small>
+<table style="border-collapse: collapse; color:black; border: 0px yellow none; font-size: 15px; vertical-align: bottom;">
+    <tr>
+        <td><img src="/images/email_icon.png" height="15px" style="background:none; border:none; box-shadow:none;"></td> 
+        <td>joana@codeop.tech</td>
+    </tr>
+    <tr>
+        <td><img src="/images/twitter.png" height="15px" style="background:none; border:none; box-shadow:none;"></td> 
+        <td>@doublebyte</td>
+    </tr>    
+    <tr>
+        <td><img src="/images/wp.png" height="15px" style="background:none; border:none; box-shadow:none;"></td> 
+        <td>doublebyteblog</td>
+    </tr>
+    <tr>
+        <td><img src="/images/Github-PNG-Image.png" height="15px" style="background:none; border:none; box-shadow:none;"></td> 
+        <td>doublebyte1</td>
+    </tr>  
+    <tr>
+        <td><img src="/images/slack.png" height="15px" style="background:none; border:none; box-shadow:none;"></td> 
+        <td>Jo at CodeOp Community channel</td>
+    </tr>  
+</table>
 
---
-## I hate this url!
-
-[https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps)
-
-- Settings -> App Name
-- **Update git remotes**
-
-```bash
-git remote rm heroku
-heroku git:remote -a newname
-```
-
-Note:
-- just add the app name! not the complete url
-
---
-## Keep the mongo uri private
-- Can we use a .env file?<!-- .element: class="fragcment" -->
-- Environment variables on heroku<!-- .element: class="fragment" -->
-
-
-```bash
-heroku config:set SOME_NAME=mongodb://heroku_91trhphh:2s7ibta8l5ukocvbjl120hr9@ds263638.mlab.com:63638/heroku_91trhphh
-heroku config:get SOME_NAME
-```
-<!-- .element: class="fragment" -->
-
-Note:
-- The answer is "no", we cannot use a .env file. But we can use environment variables
-- - Settings config vars: we can use the dashboard or the command line
-- process.env.DATABASE_URL
-
---
-## Access MLAB Dashboard
-
-```bash
-heroku addons:open mongolab
-```
-Note:
-- Open on the browser
-- you can do ultiple things, such as query or remove your collectins
-- you can also access the db via command line
-
---
-## Have fun!
-![corona](/images/child2.jpeg)<!-- .element  width="40%" -->
+</small>
 
 --
 
 This presentation was created using [Reveal.js](https://revealjs.com/#/), the HTML presentation framework. Fork it at:
-[ https://github.com/CodeOp-tech/heroku]( https://github.com/CodeOp-tech/heroku)
+[https://github.com/doublebyte1/DA-ppt.git](https://github.com/doublebyte1/DA-ppt.git)
 
 ```
 npx reveal.js-online
