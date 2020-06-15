@@ -212,6 +212,49 @@ Note:
 - Be able to extract and communicate insights.<!-- .element: class="fragment" -->
 
 --
+## Codeop: DA Course
+
+- Bootcamp
+- Part time/ full-time
+
+Note:
+- An advance-course for professionals working in engineering, business and research and who are looking to transition to tech or level-up
+- FT: July 20 
+- PT: Sept 21
+- Encourage to consult the website for the latest dates
+
+---
+## Course Syllabus
+
+![corona](/images/DA_Overview.png)<!-- .element  width="80%" -->
+
+---
+## Meet our Industry Experts
+
+<table style="border-collapse: collapse; color:black; border: 0px yellow none; font-size: 15px; vertical-align: top;">
+    <tr>
+        <td><img src="/images/nandan.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
+        <td><img src="/images/javier.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>        
+        <td><img src="/images/yulia.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td> 
+    </tr>
+        <td style="background:none; border:none; box-shadow:none;" width="150px">Data Science consultant at the world bank</td>
+        <td style="background:none; border:none; box-shadow:none;" width="150px">Senior Data Scientist at Glovo</td>
+        <td style="background:none; border:none; box-shadow:none;" width="150px">Senior Data Analyst at Skyeng</td>
+    </tr>
+    <tr>    
+        <td><img src="/images/euan.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
+        <td><img src="/images/joana.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td> 
+        <td><img src="/images/filipa.jpg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
+    </tr>
+    <tr>        
+        <td style="background:none; border:none; box-shadow:none;" width="150px">Data Scientist at Schibsted Media Group</td>
+        <td style="background:none; border:none; box-shadow:none;" width="150px">CTO at CodeOp, Founder EarthPulse (PhD)</td>
+        <td style="background:none; border:none; box-shadow:none;" width="150px">Lead Data Scientist at Levi Strauss & Co. (PhD)</td>
+    </tr>
+</table>
+
+--
+
 ## Thank you!
 ### I would love to hear from you
 
