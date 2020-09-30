@@ -9,7 +9,7 @@ In order to present, we spin a node.js server wrapped in a docker container:
 ## INSTALL
 
 ``` bash
-npx reveal.js-online
+npx reveal.js-online@1.0.1
 ```
 
 A server will run on:

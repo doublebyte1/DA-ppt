@@ -181,7 +181,6 @@ Note:
 - Teragence and EarthPulse
 - Telco providers (e.g.: O2) want to know what is the area of influence of the different cell towers
 
-
 </small>
 <div id="container">
   <div id="navbar" class="column2">
@@ -196,7 +195,7 @@ Note:
 - Data for the entire UK
 
 --
-## What changed in these 20 yeards?
+## What changed in these 20 years?
 
 - Availability of data.<!-- .element: class="fragment" -->
 - New technological challenges.<!-- .element: class="fragment" -->
