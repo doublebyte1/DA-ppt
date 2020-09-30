@@ -25,7 +25,7 @@
     </ul>
   </div>
     <div id="content" class="column2">
-    <img src="https://raw.githubusercontent.com/doublebyte1/keynotes/master/assets/pasta_fresca.jpg" >
+    <img src="images/foss4guk.jpeg" height="400px">
   </div>
 </div>
 
@@ -58,6 +58,20 @@ Geospatial analysis, network analysis
 - Any type of information can be subjected to data analytics techniques to get insight that can be used to improve things.<!-- .element: class="fragment" -->
 
 ---
+## What about Data science?
+
+![corona](/images/homealone.jpg)<!-- .element  width="30%" --> 
+
+
+Note:
+- sometimes thse terms are used interhcangebly, so I thought it would be a good idea to dive into their differences
+- First of all, the similarities: Both of them are focused on asking and answering questions with data
+- The differences could be the methods and tools which are used. DA is more focused on dettecting patterns and actionable insights, while DS also does forecasting. 
+- In terms of methods, DA would use SQL and SAS, while DS would use programming.
+- The modern conception of data science as an independent discipline has been attributed to a papper in 2001, and there is still a hype around it.
+
+---
+
 ## Data Analytics have been around for a very long time
 
 ![corona](/images/Ancientlibraryalex.jpg)<!-- .element  width="40%" -->
@@ -228,27 +242,29 @@ Note:
 ![corona](/images/DA_Overview.png)<!-- .element  width="80%" -->
 
 ---
-## Meet our Industry Experts
+## Meet our Leading Experts
 
 <table style="border-collapse: collapse; color:black; border: 0px yellow none; font-size: 15px; vertical-align: top;">
-    <tr>
-        <td><img src="/images/nandan.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
-        <td><img src="/images/javier.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>        
-        <td><img src="/images/yulia.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td> 
-    </tr>
-        <td style="background:none; border:none; box-shadow:none;" width="150px">Data Science consultant at the world bank</td>
-        <td style="background:none; border:none; box-shadow:none;" width="150px">Senior Data Scientist at Glovo</td>
-        <td style="background:none; border:none; box-shadow:none;" width="150px">Senior Data Analyst at Skyeng</td>
-    </tr>
     <tr>    
-        <td><img src="/images/euan.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
+        <td><img src="/images/min.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td> 
         <td><img src="/images/joana.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td> 
         <td><img src="/images/filipa.jpg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
     </tr>
-    <tr>        
-        <td style="background:none; border:none; box-shadow:none;" width="150px">Data Scientist at Schibsted Media Group</td>
+    <tr>       
+        <td style="background:none; border:none; box-shadow:none;" width="150px">Postdoctoral Researcher at 
+Barcelona GSE (PhD</td>
         <td style="background:none; border:none; box-shadow:none;" width="150px">CTO at CodeOp, Founder EarthPulse (PhD)</td>
         <td style="background:none; border:none; box-shadow:none;" width="150px">Lead Data Scientist at Levi Strauss & Co. (PhD)</td>
+    </tr>
+    <tr>
+        <td><img src="/images/nandan.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
+        <td><img src="/images/javier.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
+        <td><img src="/images/euan.jpeg" height="75px" style="background:none; border:none; box-shadow:none;"></td>
+    </tr>
+        <td style="background:none; border:none; box-shadow:none;" width="150px">Data Science consultant at the world bank</td>
+        <td style="background:none; border:none; box-shadow:none;" width="150px">Senior Data Scientist at Glovo</td>
+                <td style="background:none; border:none; box-shadow:none;" width="150px">Data Scientist at Spotify</td>
+
     </tr>
 </table>
 
